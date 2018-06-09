@@ -1,0 +1,15 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(BLACK.ttf);
+}
+
+.post{
+	font-family: "myFirstFont";
+	font-size: 4vw;
+	text-align: center;
+}
+
+.post1{
+	text-align: center;
+	font-size: 1.75vw;
+}
