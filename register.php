@@ -34,6 +34,25 @@
 
     <?php include 'navigation.php';?>
 
-		
+    <br><br><br>
+
+		<div class="conatiner-fluid">
+      <div class="desc">
+
+        <div class="row">
+
+          <div class="col-md-3 col-lg-3 col-sm-3 col-xs-3"></div>
+
+          <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6">
+            <p class="post">Campus Ambassador</p>
+          </div>
+
+          <div class="col-md-3 col-lg-3 col-sm-3 col-xs-3"></div>
+
+      </div>
+
+      </div>  
+    </div>
+
 	</body>
 </html>
