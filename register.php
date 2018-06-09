@@ -24,7 +24,7 @@
         <!-- Popper js-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 		
-		<link rel="stylesheet" href="register.css">
+		<link rel="stylesheet" href="css/register.css">
 
 		<title>CA Portal</title>
 	</head>
@@ -41,13 +41,16 @@
 
         <div class="row">
 
-          <div class="col-md-3 col-lg-3 col-sm-3 col-xs-3"></div>
+          <div class="col-md-2 col-lg-2 col-sm-2 col-xs-2"></div>
 
-          <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6">
-            <p class="post">Campus Ambassador</p>
+          <div class="col-md-8 col-lg-8 col-sm-8 col-xs-8">
+            <p class="post"><u><b>Campus Ambassador</b></u></p><br><br>
+            <p class="post1">If your actions inspire others to dream more, learn more,<br>
+                        do more and become more, <br>
+                        <b>You are a leader!</b></p>
           </div>
 
-          <div class="col-md-3 col-lg-3 col-sm-3 col-xs-3"></div>
+          <div class="col-md-2 col-lg-2 col-sm-2 col-xs-2"></div>
 
       </div>
 
