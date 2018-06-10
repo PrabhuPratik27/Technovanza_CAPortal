@@ -7,9 +7,36 @@
 	font-family: "myFirstFont";
 	font-size: 4vw;
 	text-align: center;
+	color: #fff;
 }
 
 .post1{
 	text-align: center;
 	font-size: 1.75vw;
+	color: #fff;
+}
+
+ body{
+      background-color: #000;
+}  
+
+input:hover,
+.btn:hover {
+  opacity: 1;
+}
+
+/* add appropriate colors to fb, twitter and google buttons */
+.fb {
+  background-color: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background-color: #55ACEE;
+  color: white;
+}
+
+.google {
+  background-color: #dd4b39;
+  color: white;
 }

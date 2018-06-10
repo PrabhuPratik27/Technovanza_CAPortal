@@ -22,46 +22,46 @@
 
         <!-- Popper js-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+        <!-- Google Icons-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 
 <body>
-	<nav class="navbar navbar-expand-md sticky-top">
-            <a class="navbar-brand" href="#"><img src="images/51.png" height="40px"></a>
+	<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+            <a class="navbar-brand" href="index"><img src="images/1.png" width="300px" height="60px")"></a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
+                <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="index"><i class="fa fa-home" style="color: #fff;"></i>Home<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="index"><i class="fa fa-home"></i>&nbsp;Home<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="fa fa-info-circle" style="color: #fff;"></i>&nbsp;About</a>
+                        <a class="nav-link" href="index"><i class="fa fa-envelope"></i>&nbsp;Contact us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="fa fa-group" style="color: #fff;"></i>&nbsp;Team</a>
+                        <a class="nav-link" href="#"><i class="fa fa-info-circle"></i>&nbsp;About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="fa fa-pencil-square-o" style="color: #fff;"></i>&nbsp;Blogs</a>
+                        <a class="nav-link" href="#"><i class="fa fa-group"></i>&nbsp;Team</a>
                     </li>
                 </ul>
 
-                <ul class="nav navbar-nav navbar-right">
+                <!--<ul class="nav navbar-nav navbar-right">
                     <li><a href="#"><span ><i class="fa fa-sign-in"></i></span> Sign Up &nbsp;</a></li>
                     <li><a href="#"><span ><i class="fa fa-user-circle"></i></span> Login &nbsp; </a></li>
-                </ul>
+                </ul>-->
             </div>
         </nav>
 </body>
 
 <style type="text/css" media="screen">
 	a{
-		color: #fff;
+		color: #000;
 	}
 
-	.navbar{
-		background-color: #2f2f2f;
-	}	
 </style>
 
 </html>
