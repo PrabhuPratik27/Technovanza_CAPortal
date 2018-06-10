@@ -16,6 +16,10 @@
 	color: #fff;
 }
 
+p{
+	text-shadow: 3px 4px 7px rgba(80, 166, 192, 0.8);
+}
+
  body{
       background-color: #000;
 }  
