@@ -61,19 +61,19 @@
 
             <br><br>
 
-            <center>
-              <a href="#" class="fb btn">
-                <i class="fa fa-facebook fa-fw"></i> Login with Facebook
-              </a><br><br>
-              <a href="#" class="twitter btn">
-                <i class="fa fa-twitter fa-fw"></i> Login with Twitter
-              </a><br><br>
-              <a href="#" class="google btn"><i class="fa fa-google fa-fw">
-                </i> Login with Google+
-              </a><br><br>
-            </center>
-
-            </style> 
+            <div class="col1">
+              <center>
+                <a href="#" class="fb btn">
+                  <i class="fa fa-facebook fa-fw"></i> Login with Facebook
+                </a><br><br>
+                <a href="#" class="twitter btn">
+                  <i class="fa fa-twitter fa-fw"></i> Login with Twitter
+                </a><br><br>
+                <a href="#" class="google btn"><i class="fa fa-google fa-fw">
+                  </i> Login with Google+
+                </a><br><br>
+              </center>
+            </div> 
 
           </div>
 

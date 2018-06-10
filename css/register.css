@@ -22,7 +22,9 @@
 
 input:hover,
 .btn:hover {
-  opacity: 1;
+  	opacity: 1;
+  	-webkit-box-shadow: -8px 10px 25px 0px #fff; 
+	box-shadow: -8px 10px 25px 0px #fff;
 }
 
 /* add appropriate colors to fb, twitter and google buttons */
@@ -40,3 +42,17 @@ input:hover,
   background-color: #dd4b39;
   color: white;
 }
+
+.col1{
+  width: 50%;
+  margin: auto;
+  padding: 50px;
+}
+
+@media screen and (max-width: 650px) {
+  .col {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
