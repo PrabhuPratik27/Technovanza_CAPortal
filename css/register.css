@@ -30,8 +30,7 @@ input:hover,
   	-webkit-box-shadow: -8px 10px 25px 0px #fff; 
 	box-shadow: -8px 10px 25px 0px #fff;
 }
-
-/* add appropriate colors to fb, twitter and google buttons */
+/* add appropriate colors to fb and google buttons */
 .fb {
   background-color: #3B5998;
   color: white;
