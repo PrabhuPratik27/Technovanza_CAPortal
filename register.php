@@ -65,13 +65,10 @@
               <center>
                 <a href="#" class="fb btn">
                   <i class="fa fa-facebook fa-fw"></i> Login with Facebook
-                </a><br><br>
-                <a href="#" class="twitter btn">
-                  <i class="fa fa-twitter fa-fw"></i> Login with Twitter
-                </a><br><br>
+                </a><br><br><br>
                 <a href="#" class="google btn"><i class="fa fa-google fa-fw">
                   </i> Login with Google+
-                </a><br><br>
+                </a><br><br><br>
               </center>
             </div> 
 
