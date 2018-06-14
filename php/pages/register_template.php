@@ -1,9 +1,34 @@
 
 <!DOCTYPE html>
 <html>
+
+  <head>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+
+    <meta name="google-signin-client_id" content="5546944844-9f4r2a96u385nq9c78qlu1udgfcght47.apps.googleusercontent.com">
+
+  </head>
+
   <?php require "php/components/headers.php" ?>
 
 	<body>
+
+    <script src="/javascripts/application.js" type="text/javascript" charset="utf-8" async defer>
+      gapi.load('auth2',function(){
+        gapi.auth2.init();
+      });
+    </script>
+
+    <script src="/javascripts/application.js" type="text/javascript" charset="utf-8" async defer>
+      function onSignIn(googleUser) {
+        var profile = googleUser.getBasicProfile();
+        console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
+        console.log('Name: ' + profile.getName());
+        console.log('Image URL: ' + profile.getImageUrl());
+        console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
+      }
+
+    </script>
 
     <div id="fb-root"></div>
 		<!--Navigation-->
@@ -32,9 +57,8 @@
                 <a href="#" class="fb btn">
                   <i class="fa fa-facebook fa-fw"></i> Login with Facebook
                 </a><br><br><br>
-                <a href="#" class="google btn"><i class="fa fa-google fa-fw">
-                  </i> Login with Google+
-                </a><br><br><br>
+
+                <div class="g-signin2" data-onsuccess="onSignIn"></div>
               </center>
             </div> 
 
