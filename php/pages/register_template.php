@@ -58,7 +58,8 @@
                   <i class="fa fa-facebook fa-fw"></i> Login with Facebook
                 </a><br><br><br>
 
-                <div class="g-signin2" data-onsuccess="onSignIn"></div>
+                <div class="g-signin2 btn" data-onsuccess="onSignIn"></div>
+                
               </center>
             </div> 
 
