@@ -1,15 +1,11 @@
+<?php
+$GLOBALS['page_title'] = "About Us";
+$GLOBALS['css_includes'] = array("css/aboutus.css");
+?>
+
 <!DOCTYPE html>
 <html>
-	<head>
-
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-		<title>About Us</title>
-
-		<link rel="stylesheet" href="css/aboutus.css">
-
-	</head>
+	<?php require "headers.php" ?>
 
 	<body>
 		
