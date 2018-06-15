@@ -5,6 +5,8 @@
   <head>
     <script src="https://apis.google.com/js/platform.js" async defer></script>
 
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+
     <meta name="google-signin-client_id" content="5546944844-9f4r2a96u385nq9c78qlu1udgfcght47.apps.googleusercontent.com">
 
   </head>
@@ -58,8 +60,8 @@
                   <i class="fa fa-facebook fa-fw"></i> Login with Facebook
                 </a><br><br><br>
 
-                <div class="g-signin2 btn" data-onsuccess="onSignIn"></div>
-                
+                <div class="g-signin2 btn" data-longtitle="true" data-width="200" data-theme="dark" data-onsuccess="onSignIn"></div>
+
               </center>
             </div> 
 
