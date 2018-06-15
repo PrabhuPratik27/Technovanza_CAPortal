@@ -17,12 +17,15 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 
 	<?php
+	define('CSSDIR', 'http://localhost/Technovanza_CAPortal/css/');
+	define('JSDIR' , 'http://localhost/Technovanza_CAPortal/js/');
+	
 	if(isset($GLOBALS['css_includes'])){
 		//Custom CSS
 		$cssIncludesCount = count($GLOBALS['css_includes']);
 		
 		for($x = 0; $x < $cssIncludesCount; $x++) {
-			echo "<link rel=\"stylesheet\" href=\"".$GLOBALS['css_includes'][$x]."\">";
+			echo "<link rel=\"stylesheet\" href=\"".CSSDIR.$GLOBALS['css_includes'][$x]."\">";
 		}
 	}
 
@@ -31,7 +34,7 @@
 		$jsIncludesCount = count($GLOBALS['js_includes']);
 		
 		for($x = 0; $x < $jsIncludesCount; $x++) {
-			echo "<script src=\"".$GLOBALS['js_includes'][$x]."\"></script>";
+			echo "<script src=\"".JSDIR.$GLOBALS['js_includes'][$x]."\"></script>";
 		}
 	}
 	?>
