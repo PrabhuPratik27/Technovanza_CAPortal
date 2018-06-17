@@ -21,13 +21,13 @@
         //console.log('Image URL: ' + profile.getImageUrl());
         console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
         var id_token = googleUser.getAuthResponse().id_token;
-        var xhr = new XMLHttpRequest();
-        xhr.open('POST', 'http://localhost/Technovanza_CAPortal/php/pages/tokensignin.php');
-        xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-        xhr.onload = function() {
-          console.log('Signed in as: ' + xhr.responseText);
+        var xhttpreq = new XMLHttpRequest();
+        xhttpreq.open('POST', 'http://localhost/Technovanza_CAPortal/php/pages/tokensignin.php');
+        xhttpreq.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+        xhttpreq.onload = function() {
+          console.log('Signed in with user id: ' + xhttpreq.responseText);
         };
-        xhr.send('idtoken=' + id_token);
+        xhttpreq.send('id_token=' + id_token);
       };
     </script>
 
