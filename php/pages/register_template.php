@@ -1,4 +1,10 @@
+<?php
+	require_once("config.php");
 
+	$redirectURL = "http://localhost/CAPortal/php/pages/fb_callback.php";
+
+	$loginURL = $helper->getLoginUrl($redirectURL);
+?>
 <!DOCTYPE html>
 <html>
 
@@ -54,13 +60,15 @@
 
             <div class="col1">
               <center>
-                <a href="#" class="fb btn">
+                <a href="<?php echo $loginURL; ?>" class="fb btn">
                   <i class="fa fa-facebook fa-fw"></i> Login with Facebook
                 </a><br><br><br>
 
                 <div class="g-signin2 btn" data-longtitle="true" data-width="200" data-theme="dark" data-onsuccess="onSignIn"></div><br><br>
 
-                <a href="#" onclick="signOut();">Sign out</a>
+                <a href="#" onclick="signOut();">Sign out</a><br>
+
+                <a href="<?php echo 'http://localhost/CAPortal/php/pages/fb_callback_logout.php'; ?>">Log out of Facebook</a>
 
                   <script>
                     function signOut() {
