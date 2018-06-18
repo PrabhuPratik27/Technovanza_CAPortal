@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
-	<?php //require getcwd()."/../php/components/headers.php"; ?>
+	<?php require getcwd()."../../php/components/headers.php"; ?>
 	<body>
-		<?php //require getcwd().'/../php/components/navigation.php'; ?>
-	<?php echo __DIR__ ?>
+		<?php require getcwd().'../../php/components/navigation.php'; ?>
+		
 	</body>
 </html>
