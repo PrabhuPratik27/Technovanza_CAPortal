@@ -9,4 +9,4 @@ $GLOBALS['page_title'] = "Edit Profile";
 $GLOBALS['css_includes']=array('profile.css');
 ?>
 
-<?php require "../php/pages/profile_template.php" ?>
+<?php require "../php/pages/edit_profile_template.php" ?>
