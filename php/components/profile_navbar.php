@@ -1,6 +1,9 @@
 <div class="col-md-2 no-spaces profile_nav bg-dark">
-    <div class="container">
+    <div class="container text-center">
         <h3 class="text-white text-lg-center">Profile</h3>
+        <div class="img-thumbnail" style="min-height: 30vh;">
+            <img src="/Technovanza_CAPortal/images/default_profile.jpg" style="max-width: 100%; margin: auto;" alt="profile image"/>
+        </div>
     </div>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#profileNavbarSupportedContent" aria-controls="profileNavbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
