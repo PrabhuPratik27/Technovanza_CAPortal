@@ -1,46 +1,59 @@
 html {
-    padding: 0px;
+  padding: 0px;
   margin: 0px;
-
 }
 body {
   overflow-x: hidden;
   padding: 0px;
   margin: 0px;
-}
-@font-face {
-    font-family: myFirstFont;
-    src: url(BLACK.ttf);
+  background-color:   #e6e6e6;
 }
 
-.post{
-	font-family: "myFirstFont";
-	font-size: 4vw;
-	text-align: center;
-	color: #fff;
+.main-logo-div img{
+  padding-top: 3vh;
+  padding-bottom: 6vh;
+
+  filter: grayscale(60%);
+  
+  min-width: 300px;
+  width: 30vw;
+}
+.ml14 {
+  font-weight: 400;
+  font-size: 4vh;
 }
 
-.post1{
-	text-align: center;
-	font-size: 1.75vw;
-	color: #fff;
+.ml14 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
 }
 
-p{
-	text-shadow: 3px 4px 7px rgba(80, 166, 192, 0.8);
+.ml14 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: #aaa;
+  transform-origin: 100% 100%;
+  bottom: 0;
 }
 
- body{
-      background-color: #000;
-}  
-
-input:hover,
-.btn:hover {
-  	opacity: 1;
-  	-webkit-box-shadow: -8px 10px 25px 0px #fff; 
-	  box-shadow: -8px 10px 25px 0px #fff;
+.ml14 .letter {
+  color: #595959;
+  display: inline-block;
+  line-height: 1em;
 }
 
+@media screen and (min-width: 700px) {
+.ml14 {
+  font-weight: 200;
+  font-size: 4vw;
+  }
+}
 /* add appropriate colors to fb and google buttons */
 .fb {
   background-color: #3B5998;
