@@ -7,7 +7,7 @@
         <h4 class="text-gray-dark text-lg-center bg-light rounded p-2">Anonymous Joe</h4>
     </div>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-        <button class="navbar-toggler btn btn-light btn-block text-white" type="button" data-toggle="collapse" data-target="#profileNavbarSupportedContent" aria-controls="profileNavbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">Options</button>
+        <button class="navbar-toggler btn btn-block text-white" type="button" data-toggle="collapse" data-target="#profileNavbarSupportedContent" aria-controls="profileNavbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">Options</button>
         <br/>
         <div class="collapse navbar-collapse" id="profileNavbarSupportedContent">
             <ul class="nav flex-column">
