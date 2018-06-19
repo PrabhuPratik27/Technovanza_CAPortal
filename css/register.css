@@ -13,7 +13,7 @@ body {
   padding-top: 3vh;
   padding-bottom: 6vh;
 
-  filter: grayscale(60%);
+  filter: grayscale(70%);
   
   min-width: 300px;
   width: 30vw;
@@ -48,6 +48,10 @@ body {
   line-height: 1em;
 }
 
+.signin-div {
+  background-color:  #e4cb81;
+}
+
 @media screen and (min-width: 700px) {
 .ml14 {
   font-weight: 200;
@@ -60,16 +64,25 @@ body {
   color: white;
 }
 
-.col1{
-  width: 50%;
-  margin: auto;
-  padding: 50px;
+@keyframes flipImage {
+    0%   {-ms-transform: rotateY(0deg); /* IE 9 */
+    -webkit-transform: rotateY(0deg); /* Safari */
+    transform: rotateY(0deg); /* Standard syntax */
+    }
+    50%   {-ms-transform: rotateY(180deg); /* IE 9 */
+    -webkit-transform: rotateY(180deg); /* Safari */
+    transform: rotateY(180deg); /* Standard syntax */
+    }
+
+    100%   {-ms-transform: rotateY(359deg); /* IE 9 */
+    -webkit-transform: rotateY(359deg); /* Safari */
+    transform: rotateY(359deg); /* Standard syntax */
+    }
 }
 
-@media screen and (max-width: 650px) {
-  .col {
-    width: 100%;
-    margin-top: 0;
-  }
+/* The element to apply the animation to */
+.flip {
+    animation-name: flipImage;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
 }
-

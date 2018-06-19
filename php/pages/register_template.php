@@ -25,7 +25,7 @@
   <?php include 'php/components/navigation.php';?>
     	<div class="container-fluid w-100 align-content-sm-center d-flex justify-content-center p-0 m-0">
     		<div class="p-0 align-middle main-logo-div">
-    			<img class="cent" src="/Technovanza_CAPortal/images/techno-logo.png" />
+    			<img class="flip" src="/Technovanza_CAPortal/images/techno-logo.png" />
     		</div>
 
     	</div>
@@ -40,22 +40,35 @@
 				</h1>
 			</div>
 		</div>
+		<br />
+		<br />
 		<div class="container-fluid">
-			<div class="container">
-            
-<!--             <p class="post1">If your actions inspire others to dream more, learn more,<br>
-                        do more and become more, <br>
-                        <b>You are a leader!</b>
-                      </p>
--->
-                <a href="<?php echo $loginURL; ?>" class="fb btn">
-                  <i class="fa fa-facebook fa-fw"></i> Login with Facebook
-                </a>
-                <div class="g-signin2 btn" data-longtitle="true" data-width="200" data-theme="dark" data-onsuccess="onSignIn"></div>
+			<div class="row">
+				<div class="col-md-7">
+					<div class="jumbotron signin-div rounded">
+						<p>111111</p>
+					</div>
+				</div>
+				<div class="col-md-5 d-none d-md-block">
+					<div class="p-3">
+						<p>222222</p>
+					</div>
+				</div>
+			</div>
+		</div>
 
-                <a href="#" onclick="signOut();">Sign out</a>
-
-                <a href="<?php echo 'http://localhost/CAPortal/php/pages/fb_callback_logout.php'; ?>">Log out of Facebook</a>
+		<div class="container jumbotron bg-dark">
+			<div class="row">
+				<div class="m-3 col-6 jumbotron">
+	                <a href="<?php echo $loginURL; ?>" class="fb btn">
+	                  <i class="fa fa-facebook fa-fw"></i> Login with Facebook
+	                </a>
+	                <br />
+	                <btn class="g-signin2 btn" data-longtitle="true" data-width="300" data-theme="dark" data-onsuccess="onSignIn"></btn>
+	            </div>
+				<div class="col-6 m-3 jumbotron">
+					hi
+				</div>
 			</div>
 		</div>
 
