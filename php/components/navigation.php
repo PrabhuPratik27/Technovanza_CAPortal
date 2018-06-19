@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
-    <a class="navbar-brand" href="index"><img src="/Technovanza_CAPortal/images/techno_logo.png" width="300px" height="60px")"></a>
+    <a class="navbar-brand" href="index"><img src="/Technovanza_CAPortal/images/techno_logo.png" width="250px" height="50px")"></a>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
