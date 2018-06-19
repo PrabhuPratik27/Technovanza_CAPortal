@@ -10,7 +10,7 @@
         <button class="navbar-toggler btn btn-block text-white" type="button" data-toggle="collapse" data-target="#profileNavbarSupportedContent" aria-controls="profileNavbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">Options</button>
         <br/>
         <div class="collapse navbar-collapse" id="profileNavbarSupportedContent">
-            <ul class="nav flex-column">
+            <ul class="nav flex-column text-center text-lg-left">
                 <li class="nav-item active">
                     <a class="nav-link text-white" href="/profile"><i class="fa fa-columns"></i>&nbsp;Dashboard<span class="sr-only">(current)</span></a>
                 </li>
