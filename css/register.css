@@ -1,52 +1,88 @@
-@font-face {
-    font-family: myFirstFont;
-    src: url(BLACK.ttf);
+html {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  overflow-x: hidden;
+  padding: 0px;
+  margin: 0px;
+  background-color:   #e6e6e6;
 }
 
-.post{
-	font-family: "myFirstFont";
-	font-size: 4vw;
-	text-align: center;
-	color: #fff;
+.main-logo-div img{
+  padding-top: 3vh;
+  padding-bottom: 6vh;
+
+  filter: grayscale(70%);
+  
+  min-width: 300px;
+  width: 30vw;
+}
+.ml14 {
+  font-weight: 400;
+  font-size: 4vh;
 }
 
-.post1{
-	text-align: center;
-	font-size: 1.75vw;
-	color: #fff;
+.ml14 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
 }
 
-p{
-	text-shadow: 3px 4px 7px rgba(80, 166, 192, 0.8);
+.ml14 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: #aaa;
+  transform-origin: 100% 100%;
+  bottom: 0;
 }
 
- body{
-      background-color: #000;
-}  
-
-input:hover,
-.btn:hover {
-  	opacity: 1;
-  	-webkit-box-shadow: -8px 10px 25px 0px #fff; 
-	  box-shadow: -8px 10px 25px 0px #fff;
+.ml14 .letter {
+  color: #595959;
+  display: inline-block;
+  line-height: 1em;
 }
 
+.signin-div {
+  background-color:  #e4cb81;
+}
+
+@media screen and (min-width: 700px) {
+.ml14 {
+  font-weight: 200;
+  font-size: 4vw;
+  }
+}
 /* add appropriate colors to fb and google buttons */
 .fb {
   background-color: #3B5998;
   color: white;
 }
 
-.col1{
-  width: 50%;
-  margin: auto;
-  padding: 50px;
+@keyframes flipImage {
+    0%   {-ms-transform: rotateY(0deg); /* IE 9 */
+    -webkit-transform: rotateY(0deg); /* Safari */
+    transform: rotateY(0deg); /* Standard syntax */
+    }
+    50%   {-ms-transform: rotateY(180deg); /* IE 9 */
+    -webkit-transform: rotateY(180deg); /* Safari */
+    transform: rotateY(180deg); /* Standard syntax */
+    }
+
+    100%   {-ms-transform: rotateY(359deg); /* IE 9 */
+    -webkit-transform: rotateY(359deg); /* Safari */
+    transform: rotateY(359deg); /* Standard syntax */
+    }
 }
 
-@media screen and (max-width: 650px) {
-  .col {
-    width: 100%;
-    margin-top: 0;
-  }
+/* The element to apply the animation to */
+.flip {
+    animation-name: flipImage;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
 }
-
